@@ -7,14 +7,14 @@ plugins {
 }
 
 android {
-    namespace = "com.reuben.feature_currency"
+    namespace = "com.omar.feature_currency"
     compileSdk = 33
 
     defaultConfig {
         minSdk = 24
         targetSdk = 33
 
-        testInstrumentationRunner = "com.reuben.core_testing.CurrencyTestRunner"
+        testInstrumentationRunner = "com.omar.core_testing.CurrencyTestRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
 

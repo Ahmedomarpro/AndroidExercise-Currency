@@ -1,4 +1,4 @@
-package di
+package com.currency.core_network.di
 
 import com.currency.core_network.BuildConfig
 import com.currency.core_network.api.ApiKeyInterceptor
@@ -47,7 +47,7 @@ object NetworkModule {
         client: OkHttpClient,
         moshi: Moshi
     ) = Retrofit.Builder()
-        .baseUrl(BuildConfig.BASE_URL)
+        .baseUrl("https://api.apilayer.com/fixer/")
         .client(client)
         .addConverterFactory(MoshiConverterFactory.create(moshi))
         .build()

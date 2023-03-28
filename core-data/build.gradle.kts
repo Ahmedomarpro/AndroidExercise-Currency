@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace = "com.currency.core_data"
+    namespace = "com.omar.core_data"
     compileSdk = 33
 
     defaultConfig {

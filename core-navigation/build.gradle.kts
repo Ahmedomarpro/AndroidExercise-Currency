@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.reuben.core_navigation"
+    namespace = "com.omar.core_navigation"
     compileSdk = 33
 
     defaultConfig {

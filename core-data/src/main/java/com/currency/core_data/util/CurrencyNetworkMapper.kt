@@ -1,8 +1,8 @@
 package com.currency.core_data.util
 
-import com.reuben.core_model.api.TimeSeries
-import com.reuben.core_model.currency.Currency
-import com.reuben.core_model.currency.ExchangeRate
+import com.omar.core_model.api.TimeSeries
+import com.omar.core_model.currency.Currency
+import com.omar.core_model.currency.ExchangeRate
 
 
 fun Map<String, String>?.convertCurrencySymbol() = this?.keys?.map {

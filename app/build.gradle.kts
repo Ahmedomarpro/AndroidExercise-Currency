@@ -4,14 +4,15 @@ plugins {
     kotlin("kapt")
     id("dagger.hilt.android.plugin")
     id("androidx.navigation.safeargs")
+
 }
 
 android {
-    namespace = "com.reuben.currencyconverter"
+    namespace = "com.omar.currencyconverter"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.reuben.currencyconverter"
+        applicationId = "com.omar.currencyconverter"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

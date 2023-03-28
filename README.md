@@ -4,24 +4,8 @@
 
 - [A valid Fixer API key](https://apilayer.com/marketplace/fixer-api?_gl=1*h9y3ex*_ga*MTIwMDIzMTYzMi4xNjc1NTA0OTkx*_ga_HGV43FGGVM*MTY3NTYyNzA4Ni40LjEuMTY3NTYyNzA5NS41MS4wLjA.#pricing)
 
-## Setup
-
-- Add `CURRENCY_API_KEY` to your `local.properties` file
-- Pase `https://api.apilayer.com/fixer/` to `BASE_URL` on your `local.properties` file.
-- Build the project
-
-### Background
-
-Develop an application that:
-
-- Can convert currencies between different bases
-- Has an input field for amount (numbers only), by default always 1, and another input
-  field to show the converted value
-- Button to swap the values in FROM and TO, and accordingly converted data
-  changed
-- Show historical data for FROM/TO selections in last 3 days (day by day) - List and chart
-- Rates converted to some other popular currencies.
-
+ 
+ 
 ## Tech-stack
 
 * Tech-stack
@@ -56,15 +40,10 @@ Develop an application that:
     * [Truth](https://github.com/google/truth) - Truth makes your test assertions and failure
       messages more readable.
 
-* CI/CD
-    * Github Actions
-
+ 
 # Screenshots of the App:
 ![](screenshots/screens.png)
 
 https://user-images.githubusercontent.com/17246592/216999134-862a3da4-bff5-4d24-b2d6-41e9b752ea8f.mp4
 
-# Screenshot of Tests running
-
-# Happy Coding!
 

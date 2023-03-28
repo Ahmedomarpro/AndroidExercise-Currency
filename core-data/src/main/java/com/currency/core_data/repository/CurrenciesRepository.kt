@@ -1,8 +1,8 @@
 package com.currency.core_data.repository
 
-import com.reuben.core_model.api.BaseCurrencyExchangeRatesDTO
-import com.reuben.core_model.api.CurrencyTimeSeriesDTO
-import com.reuben.core_model.currency.CurrencySymbolsDTO
+import com.omar.core_model.api.BaseCurrencyExchangeRatesDTO
+import com.omar.core_model.api.CurrencyTimeSeriesDTO
+import com.omar.core_model.currency.CurrencySymbolsDTO
 
 
 interface CurrenciesRepository {

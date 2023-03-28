@@ -1,14 +1,14 @@
 package com.currency.core_network.mock
 
 import com.currency.core_network.api.CurrencyApi
-import com.reuben.core_common.di.IODispatcher
-import com.reuben.core_model.api.BaseCurrencyExchangeRatesDTO
-import com.reuben.core_model.api.CurrencyTimeSeriesDTO
-import com.reuben.core_model.currency.CurrencySymbolsDTO
-import com.reuben.core_model.mock.mockCurrenciesDTO
-import com.reuben.core_model.mock.mockExchangeRateDto
-import com.reuben.core_model.mock.mockGenericErrorDTO
-import com.reuben.core_model.mock.mockTimeSeriesDTO
+import com.omar.core_common.di.IODispatcher
+import com.omar.core_model.api.BaseCurrencyExchangeRatesDTO
+import com.omar.core_model.api.CurrencyTimeSeriesDTO
+import com.omar.core_model.currency.CurrencySymbolsDTO
+import com.omar.core_model.mock.mockCurrenciesDTO
+import com.omar.core_model.mock.mockExchangeRateDto
+import com.omar.core_model.mock.mockGenericErrorDTO
+import com.omar.core_model.mock.mockTimeSeriesDTO
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext

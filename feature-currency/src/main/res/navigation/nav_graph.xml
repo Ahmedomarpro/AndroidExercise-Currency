@@ -7,19 +7,19 @@
 
     <dialog
         android:id="@+id/currenciesFragment"
-        android:name="com.reuben.feature_currency.ui.all_currencies.CurrenciesFragment"
+        android:name="com.omar.feature_currency.ui.all_currencies.CurrenciesFragment"
         android:label="fragment_currencies"
         tools:layout="@layout/fragment_currencies">
         <argument
             android:name="currencies"
-            app:argType="com.reuben.core_model.currency.CurrenciesList" />
+            app:argType="com.omar.core_model.currency.CurrenciesList" />
         <argument
             android:name="currencyType"
-            app:argType="com.reuben.core_common.CurrencyType" />
+            app:argType="com.omar.core_common.CurrencyType" />
     </dialog>
     <fragment
         android:id="@+id/convertCurrencyFragment"
-        android:name="com.reuben.feature_currency.ui.convert.ConvertCurrencyFragment"
+        android:name="com.omar.feature_currency.ui.convert.ConvertCurrencyFragment"
         android:label="fragment_convert_currency"
         tools:layout="@layout/fragment_convert_currency">
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/currencyDetailsFragment"
-        android:name="com.reuben.feature_currency.CurrencyDetailsFragment"
+        android:name="com.omar.feature_currency.CurrencyDetailsFragment"
         android:label="fragment_currency_details"
         tools:layout="@layout/fragment_currency_details" >
         <argument
@@ -42,9 +42,9 @@
             app:argType="string" />
         <argument
             android:name="timeseries"
-            app:argType="com.reuben.core_model.api.TimeSeries[]" />
+            app:argType="com.omar.core_model.api.TimeSeries[]" />
         <argument
             android:name="exchangeRates"
-            app:argType="com.reuben.core_model.currency.ExchangeRate[]" />
+            app:argType="com.omar.core_model.currency.ExchangeRate[]" />
     </fragment>
 </navigation>

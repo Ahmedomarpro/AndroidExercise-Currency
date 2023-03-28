@@ -1,8 +1,8 @@
 package com.currency.core_network.api
 
 import com.currency.core_network.BuildConfig
-import com.reuben.core_common.date.getDaysAgoDate
-import com.reuben.core_common.date.getTodaysDate
+import com.omar.core_common.date.getDaysAgoDate
+import com.omar.core_common.date.getTodaysDate
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import kotlinx.coroutines.Dispatchers

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.reuben.core_designsystem"
+    namespace = "com.omar.core_designsystem"
     compileSdk = 33
 
     defaultConfig {

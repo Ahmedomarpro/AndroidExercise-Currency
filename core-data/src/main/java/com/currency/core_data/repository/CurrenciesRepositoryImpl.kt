@@ -1,9 +1,9 @@
 package com.currency.core_data.repository
 
 import com.currency.core_network.api.CurrencyApi
-import com.reuben.core_common.di.IODispatcher
-import com.reuben.core_model.currency.CurrencySymbolsDTO
-import com.reuben.core_model.currency.apiCall
+import com.omar.core_common.di.IODispatcher
+import com.omar.core_model.currency.CurrencySymbolsDTO
+import com.omar.core_model.currency.apiCall
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import javax.inject.Inject

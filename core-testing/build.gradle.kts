@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.reuben.core_testing"
+    namespace = "com.omar.core_testing"
     compileSdk = 33
 
     defaultConfig {
